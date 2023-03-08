@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-color: #9400D3;/*background-image: linear-gradient(to bottom, #7900ca, #5dc9ff);*/
+    text-align: left;
+}
+
+/*CABEÇALHO DA PÁGINA PRINCIPAL*/
+.cabecalho-site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+.cabecalho-menu{
+    display: flex;
+    gap: 24px
+}
+.cabecalho-menu-item{
+    font-family: 'Londrina Solid', cursive;
+    color: #FFFF00;
+    font-weight: 400;
+    font-size: 18px;
+}
+.cabecalho-menu-item:hover{
+    color: rgb(242, 255, 0);
+    text-shadow: 1px 1px black;
+}
+/* ------------------------------ */
+
+.conteudo{
+    border-top: 0.4px solid rgb(44, 0, 47);
+    margin-bottom: 48px;
+}
+
+/* SECTION 1 */
+.imagem {
+    position: relative;
+    width: 100%;
+}
+.imagem img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.imagem .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(6, 96, 0, 0.8);
+    padding: 50px;
+}
+.imagem .texto h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:white;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+.imagem .texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-indent: 1rem;
+    color:rgb(0, 0, 0);
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;    
+}
+/* ------------------------------ */
+
+/* INDEX - SECTION - CONTEUDO ESCRITO */
+.assunto{
+    position: relative;
+    width: 100%;
+}
+.assunto .texto h2{
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#FFFF00;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 1px 1px 1px black;    
+}
+.assunto .texto p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 1rem;
+    color:white;
+    font-family: 'Londrina Solid', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px black;
+}
+/* ------------------------------ */
+
+/* INDEX - SECTION - EDIÇÃO BLOCOS*/
+.blocos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+  }
+.bloco {
+    background-color: #FFFF00;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 10px;width: 33%;
+    height: 325px;
+    display: inline-block;
+    text-indent: 0.75rem;
+    text-align: justify;
+  } 
+.bloco h2 {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    color: black;
+  } 
+.bloco p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 0;
+  }
+  /* ------------------------------ */
+
+.imagem-tutorial{
+    position: relative;
+    width: 100%;
+}
+.imagem-tutorial img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+.imagem-tutorial .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(136, 0, 255);
+    padding: 50px;
+}
+.imagem-tutorial .texto h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:white;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 3px 3px 3px rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+.imagem-tutorial .texto p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-indent: 1rem;
+    color:rgb(0, 0, 0);
+    font-family: 'Londrina Solid', cursive;
+    letter-spacing: 1px;    
+}
+
+
+
+.texto-tutorial{
+    position: relative;
+    width: 100%;
+}
+.texto-tutorial .turorial1 h2{
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#FFFF00;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 1px 1px 1px black;    
+}
+.texto-tutorial .turorial1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 1rem;
+    color:white;
+    font-family: 'Londrina Solid', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px black; 
+}
+.turorial1 img{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+  
+.texto-sobre{
+    position: relative;
+    width: 100%;
+}
+.texto-sobre img{
+    position: relative;
+    width: 100%;
+}
+.texto-sobre .sobre1 h2{
+    font-size: 48px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#FFFF00;
+    font-family: 'Londrina Solid', cursive;
+    text-shadow: 1px 1px 1px black;  
+    
+}
+.texto-sobre .sobre1 p{
+    font-size: 16px;
+    line-height: 1.5;
+    text-indent: 1rem;
+    color:white;
+    font-family: 'Londrina Solid', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-shadow: 1px 1px 1px black; 
+    text-align: justify;
+}
+.sobre1 img{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo{
+    margin: 900px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px 100px;
+    background-color: #1d2e1e;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+section h2{
+    color:#f5f5f5;
+    font-size: 2.5rem;
+    margin: 2rem;
+}
+section form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+}
+form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-bottom: 20px;
+    font-size: 15px;
+    transition: all 0.5s;
+}
+form input:focus{
+    border-radius: 16px;
+}
+form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    transition: all 0.5s;
+}
+form textarea:focus{
+    border-radius: 16px;
+}
+form button{
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    background: transparent;
+    border: 2px solid #f5f5f5;
+    color: #f5f5f5;
+    transition: all 1s;
+    margin-bottom: 20px;
+}
+form button:hover{
+    background: #f5f5f5;
+    color: black;
+    border-radius: 16px;
+}
+
+  .copy{
+    font-size: 16px;
+    text-indent: 1rem;
+    color:rgb(0, 0, 0);
+    font-family: 'Londrina Solid', cursive;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
